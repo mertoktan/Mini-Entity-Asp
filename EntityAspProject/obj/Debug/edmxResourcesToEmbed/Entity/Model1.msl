@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AspDbModelStoreContainer" CdmEntityContainer="AspDbEntities">
+    <EntitySetMapping Name="Tbl_Kategori">
+      <EntityTypeMapping TypeName="AspDbModel.Tbl_Kategori">
+        <MappingFragment StoreEntitySet="Tbl_Kategori">
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="KATEGORIAD" ColumnName="KATEGORIAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Musteri">
+      <EntityTypeMapping TypeName="AspDbModel.Tbl_Musteri">
+        <MappingFragment StoreEntitySet="Tbl_Musteri">
+          <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
+          <ScalarProperty Name="MUSTERIAD" ColumnName="MUSTERIAD" />
+          <ScalarProperty Name="MUSTERISOYAD" ColumnName="MUSTERISOYAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Personel">
+      <EntityTypeMapping TypeName="AspDbModel.Tbl_Personel">
+        <MappingFragment StoreEntitySet="Tbl_Personel">
+          <ScalarProperty Name="PERSONELID" ColumnName="PERSONELID" />
+          <ScalarProperty Name="PERSONELADSOYAD" ColumnName="PERSONELADSOYAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Satıs">
+      <EntityTypeMapping TypeName="AspDbModel.Tbl_Satıs">
+        <MappingFragment StoreEntitySet="Tbl_Satıs">
+          <ScalarProperty Name="SATISID" ColumnName="SATISID" />
+          <ScalarProperty Name="URUN" ColumnName="URUN" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+          <ScalarProperty Name="MUSTERI" ColumnName="MUSTERI" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Urunler">
+      <EntityTypeMapping TypeName="AspDbModel.Tbl_Urunler">
+        <MappingFragment StoreEntitySet="Tbl_Urunler">
+          <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />
+          <ScalarProperty Name="URUNKATEGORI" ColumnName="URUNKATEGORI" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="URUNSTOK" ColumnName="URUNSTOK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
