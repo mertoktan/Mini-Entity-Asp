@@ -40,6 +40,7 @@
     <EntitySetMapping Name="Tbl_Urunler">
       <EntityTypeMapping TypeName="AspDbModel.Tbl_Urunler">
         <MappingFragment StoreEntitySet="Tbl_Urunler">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
           <ScalarProperty Name="URUNID" ColumnName="URUNID" />
           <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
           <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />

@@ -50,6 +50,7 @@
     <Property Name="URUNSTOK" Type="Int16" />
     <NavigationProperty Name="Tbl_Kategori" Relationship="Self.FK_Tbl_Urunler_Tbl_Kategori" FromRole="Tbl_Urunler" ToRole="Tbl_Kategori" />
     <NavigationProperty Name="Tbl_Satıs" Relationship="Self.FK_Tbl_Satıs_Tbl_Urunler" FromRole="Tbl_Urunler" ToRole="Tbl_Satıs" />
+    <Property Name="DURUM" Type="Boolean" />
   </EntityType>
   <Association Name="FK_Tbl_Urunler_Tbl_Kategori">
     <End Role="Tbl_Kategori" Type="Self.Tbl_Kategori" Multiplicity="0..1" />

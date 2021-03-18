@@ -42,6 +42,7 @@
     <Property Name="URUNKATEGORI" Type="tinyint" />
     <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="2" />
     <Property Name="URUNSTOK" Type="smallint" />
+    <Property Name="DURUM" Type="bit" />
   </EntityType>
   <Association Name="FK_Tbl_Satıs_Tbl_Musteri">
     <End Role="Tbl_Musteri" Type="Self.Tbl_Musteri" Multiplicity="0..1" />

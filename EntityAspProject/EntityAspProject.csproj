@@ -89,6 +89,11 @@
     <Content Include="KategoriGuncelle.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="KategoriSil.aspx" />
+    <Content Include="Musterı\Musterıler.aspx" />
+    <Content Include="Urun\UrunGuncelle.aspx" />
+    <Content Include="Urun\Urunler.aspx" />
+    <Content Include="Urun\UrunSil.aspx" />
+    <Content Include="Urun\YenıUrun.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -157,7 +162,42 @@
     <Compile Include="KategoriSil.aspx.designer.cs">
       <DependentUpon>KategoriSil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Musterı\Musterıler.aspx.cs">
+      <DependentUpon>Musterıler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Musterı\Musterıler.aspx.designer.cs">
+      <DependentUpon>Musterıler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Urun\UrunGuncelle.aspx.cs">
+      <DependentUpon>UrunGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Urun\UrunGuncelle.aspx.designer.cs">
+      <DependentUpon>UrunGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Urun\Urunler.aspx.cs">
+      <DependentUpon>Urunler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Urun\Urunler.aspx.designer.cs">
+      <DependentUpon>Urunler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Urun\UrunSil.aspx.cs">
+      <DependentUpon>UrunSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Urun\UrunSil.aspx.designer.cs">
+      <DependentUpon>UrunSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Urun\YenıUrun.aspx.cs">
+      <DependentUpon>YenıUrun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Urun\YenıUrun.aspx.designer.cs">
+      <DependentUpon>YenıUrun.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.Master" />
