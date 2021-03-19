@@ -122,5 +122,14 @@
       <End Role="Tbl_Urunler" EntitySet="Tbl_Urunler" />
       <End Role="Tbl_Satıs" EntitySet="Tbl_Satıs" />
     </AssociationSet>
+    <EntitySet Name="Tbl_Admin" EntityType="AspDbModel.Tbl_Admin" />
   </EntityContainer>
+  <EntityType Name="Tbl_Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SIFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

@@ -30,5 +30,6 @@ namespace EntityAspProject.Entity
         public virtual DbSet<Tbl_Personel> Tbl_Personel { get; set; }
         public virtual DbSet<Tbl_Satıs> Tbl_Satıs { get; set; }
         public virtual DbSet<Tbl_Urunler> Tbl_Urunler { get; set; }
+        public virtual DbSet<Tbl_Admin> Tbl_Admin { get; set; }
     }
 }
