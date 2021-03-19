@@ -22,14 +22,13 @@
       </a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="Musterıler.aspx">Müşteriler</a></li>
-      <li><a href="Kategoriler.aspx">Kategoriler</a></li>
-      <li><a href="Urunler.aspx">Ürünler</a></li>
+      <li><a href="/Musterı/Musterıler.aspx">Müşteriler</a></li>
+      <li><a href="/Kategoriler.aspx">Kategoriler</a></li>
+      <li><a href="/Urun/Urunler.aspx">Ürünler</a></li>
       <li><a href="#">Personeller</a></li>
-      <li><a href="#">Satışlar</a></li>
+      <li><a href="/Satıs/Satıslar.aspx">Satışlar</a></li>
       <li><a href="#">Ayarlar</a></li>
-      <li><a href="#">Kullanıcı Paneli</a></li>
-      <li><a href="#">Ürün Paneli</a></li>
+      <li><a href="/LinqKartlar/İstatistik.aspx">İstatistikler</a></li>
       <li><a href="#">Çıkış Yap</a></li>
     </ul>
   </div>
